@@ -348,7 +348,7 @@ img {
   text-align: center;
 }
 
-.about__description span {
+.about__description span p {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--first-color);
@@ -691,4 +691,8 @@ img {
   .qualification__container {
     column-gap: 6rem;
   }
+}
+
+#description__intro {
+  font-size: 1.2rem;
 }
